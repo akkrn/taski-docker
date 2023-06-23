@@ -10,4 +10,4 @@ jobs:
       - name: Check out repository code
         uses: action/checkout@v3
       - name: Print project tree
-        run: tree
+        run: tree .
