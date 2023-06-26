@@ -4,7 +4,7 @@ volumes:
   pg_data_production:
   static_volume:
 
-sevices:
+services:
   db:
     image: postgres:13.10
     env_file: .env
