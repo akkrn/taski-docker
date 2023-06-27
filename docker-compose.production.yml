@@ -6,7 +6,7 @@ volumes:
 
 services:
   db:
-    image: postgres:13-alpine
+    image: postgres:13.10
     env_file: .env
     volumes:
       - pg_data_production:/var/lib/postgresql/data
@@ -28,3 +28,4 @@ services:
       - static_volume:/staticfiles/
     ports:
       - 8000:80
+
